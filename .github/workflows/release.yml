@@ -4,10 +4,12 @@ on:
     branches:
       - main
       - dev
+      - dalvik-patcher
   pull_request:
     branches:
       - main
       - dev
+      - dalvik-patcher
 jobs:
   release:
     name: Release
